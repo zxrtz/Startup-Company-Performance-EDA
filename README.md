@@ -14,5 +14,5 @@ However, the valuation of IoT isn't as scalable as some of the other industries!
 
 Screenshot below:
 Top 5 monetary valuation startups and whether they are profitable or not. (0 = not profitable, 1 = profitable).
-
+It seems that E-Commerce seems to be profitable at the top startups ranked by valuation. Cybersecurity, on the other hand, not really.
 ![image](https://github.com/user-attachments/assets/43a0020a-052b-476a-aec0-1de78de17a41)
