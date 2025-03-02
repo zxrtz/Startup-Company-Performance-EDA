@@ -1,11 +1,10 @@
 # Startup-Company-EDA
 Exploratory Analysis of Company Financial Metrics
 
+Calculated the Average Probability of Profitability of Startup Industries, and measured Scalability Using Valuation to Funding Ratios.
+This project allows startup creators to choose see the potential in different types of startups and the tradeoffs that come with scalability and chance of profitability.
+
 Screenshot below: 
-
-Calculated the Average Probability of Profitability of Startup Industries.
-Measured Scalability Using Valuation to Funding Ratios.
-
 Using the data in this table, we can clearly see that Internet of Things (IoT) industry companies require less funding and have the highest chance of probability. 
 However, the valuation of IoT isn't as scalable as some of the other industries! The average valuation of IoT startups are relatively low.
 
