@@ -2,8 +2,10 @@
 Exploratory Analysis of Company Financial Metrics
 
 Screenshot below: 
+
 Calculated the Average Probability of Profitability of Startup Industries.
 Measured Scalability Using Valuation to Funding Ratios.
+
 Using the data in this table, we can clearly see that Internet of Things (IoT) industry companies require less funding and have the highest chance of probability. 
 However, the valuation of IoT isn't as scalable as some of the other industries! The average valuation of IoT startups are relatively low.
 
