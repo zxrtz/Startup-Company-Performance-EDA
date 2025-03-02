@@ -2,7 +2,9 @@
 Exploratory Analysis of Company Financial Metrics
 
 This project allows startup creators to choose see the potential in different types of startups and the tradeoffs that come with scalability and chance of profitability.
-It calculates the Average Probability of Profitability of Startup Industries, and measures Scalability Using Valuation to Funding Ratios. All metrics regarding valuation, funding, and revenue are in the dataset are measured by thousands.
+It calculates the Average Probability of Profitability of Startup Industries, and measures Scalability Using Valuation to Funding Ratios. 
+
+*All metrics regarding valuation, funding, and revenue are in the dataset are measured by millions.*
 
 Screenshot below: 
 Using the data in this table, we can clearly see that Internet of Things (IoT) industry companies require less funding and have the highest chance of probability. 
