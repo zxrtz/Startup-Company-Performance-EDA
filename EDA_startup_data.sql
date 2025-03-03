@@ -95,6 +95,53 @@ FROM profitability_ranker
 ORDER BY profitability_chance DESC
 ;
 
+/*--------------------------------------------------------------------------*/
+-- expansion 2: adding profitability to all metrics
+
 SELECT *
 FROM startup_data_staging1;
+
+DROP TABLE startup_data_staging2;
+
+CREATE TABLE startup_data_staging2
+LIKE startup_data_staging1;
+
+INSERT INTO startup_data_staging2
+SELECT * FROM startup_data_staging1;
+
+ALTER TABLE startup_data_staging2
+ADD Profitable_or_not CHAR(3) NULL;
+
+UPDATE startup_data_staging2
+SET Profitable_or_not = 'No'
+WHERE Profitable = 0;
+
+UPDATE startup_data_staging2
+SET Profitable_or_not = 'Yes'
+WHERE Profitable = 1;
+
+
+WITH industry_profitability_cte AS
+(
+SELECT industry, CONCAT(AVG(Profitable), " ", industry) AS industry_profit_chance
+FROM startup_data_staging2 
+GROUP BY industry
+), joined_profitability_cte AS
+(
+SELECT t1.*, t2.industry_profit_chance 
+FROM startup_data_staging2 t1
+JOIN industry_profitability_cte t2
+WHERE t1.industry = t2.industry
+), top_5_profitability_valuation_cte AS
+(
+SELECT *,
+DENSE_RANK() OVER(PARTITION BY industry ORDER BY valuation DESC) AS valuation_industry_rank
+FROM joined_profitability_cte
+WHERE Region = 'North America'
+)
+SELECT startup_name, Profitable_or_not, industry, valuation, industry_profit_chance, valuation_industry_rank
+FROM top_5_profitability_valuation_cte
+WHERE valuation_industry_rank <6 ;
+
+
 
