@@ -14,8 +14,10 @@ However, the valuation of IoT isn't as scalable as some of the other industries!
 
 
 Screenshot below:
-Top 5 monetary valuation startups and whether they are profitable or not. (0 = not profitable, 1 = profitable).
+Top 5 monetary valuation startups and whether they are profitable or not, as well as the probability of the industry being profitable. (For example, a 0.56 industry_profit_chance means 56% probability of the startup being profitable).
 It seems that E-Commerce seems to be profitable at the top startups ranked by valuation. Cybersecurity, on the other hand, not really. 
 In my previous queries, however, I've shown that valuation for cybersecurity companies have on average ~70% more valuation than IoT.
 
-![image](https://github.com/user-attachments/assets/43a0020a-052b-476a-aec0-1de78de17a41)
+![image](https://github.com/user-attachments/assets/366d87bc-46dc-4ea1-8000-2ac7e95e3b98)
+
+
