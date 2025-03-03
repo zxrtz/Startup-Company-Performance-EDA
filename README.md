@@ -20,4 +20,4 @@ In my previous queries, however, I've shown that valuation for cybersecurity com
 
 ![image](https://github.com/user-attachments/assets/366d87bc-46dc-4ea1-8000-2ac7e95e3b98)
 
-
+In conclusion, E-Commerce seems to be profitable for startups, but Cybersecurity offers more scalability depending on what the end user's goal is.
