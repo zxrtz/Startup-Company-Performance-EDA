@@ -10,7 +10,8 @@ It calculates the Average Probability of Profitability of Startup Industries, an
 
 Here is the interactive dashboard I made using PowerBI.
 
-![image](https://github.com/user-attachments/assets/c6123a88-219f-4762-8b82-dd3a69ed6b92)
+![Uploading image.png…]()
+
 
 
 
