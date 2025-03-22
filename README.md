@@ -2,7 +2,7 @@
 Exploratory Analysis of Company Financial Metrics
 
 This project was a culmination of both PowerBI and SQL.
-- allows startup creators to:
+- It allows startup creators to:
   - see the potential scalability in different types of startups
   - view tradeoffs that come with scalability and chance of profitability.
   
