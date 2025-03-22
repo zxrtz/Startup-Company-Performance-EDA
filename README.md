@@ -2,9 +2,11 @@
 Exploratory Analysis of Company Financial Metrics
 
 This project was a culmination of both PowerBI and SQL.
-
-It allows startup creators to choose see the potential in different types of startups and the tradeoffs that come with scalability and chance of profitability.
-It calculates the Average Probability of Profitability of Startup Industries, and measures Scalability Using Valuation to Funding Ratios. 
+- allows startup creators to:
+  - see the potential scalability in different types of startups
+  - view tradeoffs that come with scalability and chance of profitability.
+  
+This project calculates the Average Probability of Profitability of Startup Industries, and measures Scalability Using Valuation to Funding Ratios. 
 
 *Columns regrading valuation, funding, and revenue are in the dataset are measured by millions.*
 
