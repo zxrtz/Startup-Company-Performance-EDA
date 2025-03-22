@@ -1,10 +1,10 @@
 # Startup-Company-EDA
 Exploratory Analysis of Company Financial Metrics
 
-This project was a culmination of both PowerBI and SQL.
+This project was a culmination of both **PowerBI** and **SQL**.
 - It allows startup creators to:
-  - see the potential scalability of startups in certain industries (e-commerce, cybersecurity, etc.)
-  - view tradeoffs that come with scalability and chance of profitability.
+  - see the **potential scalability of startups in certain industries** (e-commerce, cybersecurity, etc.)
+  - **view tradeoffs that come with scalability** and **chance of profitability**.
   
 This project calculates the Average Probability of Profitability of Startup Industries, and measures Scalability Using Valuation to Funding Ratios. 
 
